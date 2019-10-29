@@ -1,0 +1,64 @@
+site_name: Things PDF
+site_description: >- 
+  PDF processing tricks.
+  Using open source tools to go
+  from scanned books to searchable pdfs.
+
+site_url: 'https://Dans-labs.github.io/thingspdf/'
+site_author: Dirk Roorda
+
+repo_name: Dans-labs/thingspdf
+repo_url: 'https://github.com/Dans-labs/thingspdf/'
+
+theme:
+  name: dans
+  logo: 'images/logo.png'
+  favicon: 'images/logo-small.png'
+  development: false
+  feature:
+    tabs: true
+
+strict: false
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: Dans-labs
+      repo: mkdocs-dans
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - markdownextradata
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: 'index.md'
+  - Nisis-autumn-2019:
+    - Pipeline: 'pipeline/instruction.md'
