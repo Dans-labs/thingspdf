@@ -178,7 +178,7 @@ Put it in your working directory, `local/pdfprocessing`.
         each `image-xxx`.
 
         ??? hint "If not, check the bash manual"
-        ``` bash tab="macos"
+            ``` bash tab="macos"
             man bash
             ```
 
@@ -207,6 +207,7 @@ Put it in your working directory, `local/pdfprocessing`.
     ``` bash tab="macos"
     mkdir damaged
     mv scout/page-80_1L.tif.pdf damaged
+    pdfunite scout/*.pdf finalBook.pdf
     ```
 
     Now you have a `finalBook.pdf` file of 6.9 MB
