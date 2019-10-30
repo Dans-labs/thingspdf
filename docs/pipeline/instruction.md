@@ -57,13 +57,18 @@ with open source tools.
     [About](https://imagemagick.org/script/)
 
 ??? abstract "Scantailor"
-    We only install the command line interface, not the graphical interface.
+    First we install the command line interface.
 
     ``` bash tab="macos"
     sudo port install scantailor
     ```
 
     [More info](https://github.com/scantailor/scantailor/wiki/User-Guide).
+
+    But the fun is with the graphical interface.
+    On the Mac, that is hard to get, we have to build from source.
+    Here are
+    [instructions that work](https://outofcontrol.ca/blog/installing-scantailor-on-macos-high-sierra).
 
 ??? abstract "Tesseract"
     We also need
