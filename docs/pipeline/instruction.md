@@ -67,7 +67,13 @@ with open source tools.
 
     But the fun is with the graphical interface.
     On the Mac, that is hard to get, we have to build from source.
-    Here are
+
+    We have instructions to get that, but before that you may have to do this first
+
+    ``` bash tab="macos"
+    brew cask install xquartz
+    ```
+    
     [instructions that work](https://outofcontrol.ca/blog/installing-scantailor-on-macos-high-sierra).
 
 ??? abstract "Tesseract"
