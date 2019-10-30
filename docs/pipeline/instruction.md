@@ -10,6 +10,10 @@ It shows how a pipeline, suggested by
 from scanned book to OCR-ed book can be carried out
 with open source tools.
 
+### Boost your knowledge
+
+[Python programming for the humanities](https://www.karsdorp.io/python-course/)
+
 ### Prerequisites
 
 ??? abstract "macos"
